@@ -1,0 +1,98 @@
+
+body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    .resume-container {
+        background: #fff;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 32px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-radius: 8px;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #0078d7;
+        padding-bottom: 16px;
+        margin-bottom: 24px;
+    }
+    .avatar {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background: #e0e0e0;
+        margin-right: 24px;
+        object-fit: cover;
+    }
+    .name-title {
+        flex: 1;
+    }
+    .name {
+        font-size: 2em;
+        font-weight: bold;
+        margin: 0;
+    }
+    .title {
+        color: #0078d7;
+        font-size: 1.2em;
+        margin-top: 4px;
+    }
+    .contact {
+        margin-top: 8px;
+        font-size: 0.98em;
+        color: #444;
+    }
+    .section {
+        margin-bottom: 28px;
+    }
+    .section-title {
+        color: #0078d7;
+        font-size: 1.2em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        border-left: 4px solid #0078d7;
+        padding-left: 8px;
+    }
+    .section-content ul {
+        padding-left: 20px;
+        margin: 0;
+    }
+    .job-title {
+        font-weight: bold;
+        color: #333;
+    }
+    .job-company {
+        color: #0078d7;
+    }
+    .job-date {
+        float: right;
+        color: #888;
+        font-size: 0.95em;
+    }
+    .education-degree {
+        font-weight: bold;
+    }
+    .education-school {
+        color: #0078d7;
+    }
+    .education-date {
+        float: right;
+        color: #888;
+        font-size: 0.95em;
+    }
+    @media (max-width: 600px) {
+        .resume-container {
+            padding: 12px;
+        }
+        .header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .avatar {
+            margin-bottom: 12px;
+        }
+    }
